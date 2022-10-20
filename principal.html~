@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang='es'>
+
+  <head>
+    
+     <title>Damas españolas</title>
+     
+     <meta charset="utf-8">
+     <meta name="viewport" content="width-device-width, user-scalable=no, initial-scalable=1, maximum-scale=1, minimum-scale=1">
+     <link rel='stylesheet'  href='estilos/'>
+     <link rel='stylesheet'  href='estilos/'>
+     <script type="text/javascript" src="javascript/codigo.js"></script>
+  </head>
+  <body>
+
+	  <main>   
+	  <img id="tablero" src="imagenes/tablero2.png" width="0" height="0" > 
+	  <img id="fichaNegra" src="imagenes/fichanegra.png" width="0" height="0" > 
+	  <img id="fichaBlanca" src="imagenes/pap.jpg" width="0" height="0" > 
+	  <img id="corona" src="imagenes/corona.png" width="0" height="0" > 
+	  	<div id="cuerpo_canvas"  align="center">
+	  		<canvas id="myCanvas" width="600" height="600" style="border:1px solid #d3d3d3; border-radius:30px;" >
+	 		</canvas>
+	 	</div>	
+
+  </main>
+</body>
+</html>
